@@ -11,4 +11,9 @@ elif n % 2 ==0 and 6<= n<= 20:
 elif n % 2 ==0 and n>20:
     print("Not Weird")   
 
-
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    print(a+b)
+    print(a-b)
+    print(a*b)
